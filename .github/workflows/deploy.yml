@@ -24,8 +24,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
-           - name: Skyline DataMiner Deploy Action
+      - name: Skyline DataMiner Deploy Action
         # You may pin to the exact commit or the version.
         # uses: SkylineCommunications/Skyline-DataMiner-Deploy-Action@a1b280087cc1929842b7b1f1f7a40831f9942ec2
         uses: SkylineCommunications/Skyline-DataMiner-Deploy-Action@v1.0.12
